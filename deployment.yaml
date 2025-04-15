@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-hello
+  name: node-hello-deployment
 spec:
   replicas: 2
   selector:
@@ -17,6 +17,3 @@ spec:
         image: msanki/app:v1 
         ports:
         - containerPort: 3000
-
-
-
