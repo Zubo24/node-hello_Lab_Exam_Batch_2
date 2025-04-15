@@ -14,6 +14,9 @@ spec:
     spec:
       containers:
       - name: node-hello
-        image: imraz25/practice:v1 
+        image: msanki/app:v1 
         ports:
         - containerPort: 3000
+
+
+
